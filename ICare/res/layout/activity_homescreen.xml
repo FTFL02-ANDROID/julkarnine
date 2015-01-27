@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/android">
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="5dp">
+    
+    <ImageView
+        android:id="@+id/imageViewCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_marginRight="14dp"        
+        android:contentDescription="@drawable/home"
+        android:src="@drawable/home" />
+
+    <TextView 
+	    android:id="@+id/myDietChart"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center"	    
+	    android:textColor="@android:color/holo_blue_dark"
+	    android:padding="5dp"
+	    android:layout_margin="5dp"
+	    android:textSize="25sp"
+	    android:text="@string/home"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/layoutOne"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/myTodayDietChartView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:drawableLeft="@drawable/day"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/todaysDiets"
+        android:textColor="#0052A3"
+        android:textSize="20sp" />
+    
+    <ListView
+	    android:id="@+id/lvTodayDietChart"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textColor="#ffffff"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/layoutTwo"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/tvUpComingDietChartView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:drawableLeft="@drawable/upcoming"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/upcomingDiet"
+        android:textColor="#0052A3"
+        android:textSize="20sp" />
+    
+    <ListView
+	    android:id="@+id/lvUpComingDietChart"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textColor="#ffffff"/>
+    
+    </LinearLayout>
+    
+
+</LinearLayout>

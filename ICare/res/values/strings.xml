@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">ICareProfile</string>
+    <string name="view_on_github">GITHUB</string>
+    <string name="sample_activity_form_is_valid">Form is valid</string>
+    <string name="lib_name">Z-Validations</string>
+    <string name="zvalidations_not_positive_integer">Field should be positive integer</string>
+    <string name="zvalidations_empty">Field could not be empty</string>
+    <string name="zvalidations_not_in_range">Field should be between %1$d and %2$d</string>
+    <string name="zvalidations_not_email">Value is not valid email address</string>
+    <string name="title_activity_main_splash_screen">MainSplashScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_first_screen">FirstScreen</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_view_profile">ViewProfile</string>
+    <string name="login">Login</string>
+    <string name="feast">Feast Name</string>
+    <string name="day">Pick a Day</string>
+    <string name="time">Pick a Time</string>
+    <string name="menu">Menu</string>
+    <string name="alarm">Set Alarm</string>
+    <string name="add">Add To Diet Chart</string>
+    <string name="fullname">Fullname</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="ContentDescription">ContentDescription</string>
+    <string name="registerhere">New to ICare? Register here</string>
+    <string name="registernew">Register New Account</string>
+    <string name="loginhere">Already has account! Login here</string>
+    <string name="title_activity_on_click_listener_testing">OnClickListenerTesting</string>
+    <string name="title_activity_asimple_android_list_view_example">ASimpleAndroidListViewExample</string>
+    <string name="title_activity_wish_list">WishListActivity</string>
+    <string name="title_activity_wish_list_starting">WishListStartingActivity</string>
+    <string name="title_activity_main">Home Screen Activity</string>
+    <string name="title_activity_sharedpreferences">Sharedpreferences</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="street">Street</string>
+    <string name="country">City/State/Zip</string>
+    <string name="save">Save Contact</string>
+    <string name="dateofbirth">Date Of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="ismarried">IsMarried</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="relign">Relign</string>
+    <string name="islam">Islam</string>
+    <string name="hindu">Hindu</string>
+    <string name="budda">Budda</string>
+    <string name="countryatc">Country</string>
+    <string name="switchtoggle">Switch</string>
+    <string name="submit">Submit</string>
+    <string name="gotohomescreen">Go To Home Screen</string>
+
+    <string-array name="genderarray">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="countryArray">
+        <item>Bangladesh</item>
+        <item>india</item>
+        <item>Pakistan</item>
+    </string-array>
+
+    <string name="etFatherName">Father Name</string>
+    <string name="etMotherName">Mother Name</string>
+    <string name="etWeight">Weight</string>
+    <string name="etMotherNamea">Mother Name</string>
+    <string name="etHeight">Height</string>
+    <string name="etEyeColor">EyeColor</string>
+    <string name="etSpecialComments">SpecialComments</string>
+    <string name="etSpecialCommentsa">Special Comments</string>
+    <string name="clear">Clear</string>
+    <string name="update">Update</string>
+    <string name="remove_preference">Delete</string>
+    <string name="updates">Update</string>
+    <string name="home">Home</string>
+    <string name="fname">Enter Fathers Name</string>
+    <string name="mname">Enter Mothers Name</string>
+    <string name="reg">Create Profile</string>
+    <string name="dob">Enter Date Of Birth</string>
+    <string name="weight">Enter Weight</string>
+    <string name="height">Enter Height</string>
+    <string name="birthplace">Birth Place</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="editProfile">Edit Profile</string>
+
+    <string-array name="dietNameSpinner">
+        <item>BreakFast</item>
+        <item>Snack</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+
+    <string name="title_activity_icare_start_screen">ICareStartScreen</string>
+    <string name="menuitem">Write Menu Item</string>
+    <string name="FeastName">Feast Name</string>
+    <string name="Menu2">menu</string>
+    <string name="AddDailyDietChart">Add Daily Diet Chart</string>
+    <string name="title_activity_grid_view_example">GridViewExampleActivity</string>
+    <string name="title_activity_single_view">SingleViewActivity</string>
+    <string name="title_activity_single_diet_view">SingleDietViewActivity</string>
+    <string name="dietdateonly">dietDateOnly</string>
+    <string name="todaysDiets">Diet Chart of The Day</string>
+    <string name="upcomingDiet">Upcoming Diet Chart</string>
+    <string name="title_activity_daily_diet_view">DailyDietViewActivity</string>
+    <string name="friday">Friday</string>
+    <string name="todayDiet">Today Diet</string>
+
+</resources>

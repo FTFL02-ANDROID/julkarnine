@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ftfl.icareprofile.MainActivity" >
+
+    
+    
+   <item android:id="@+id/action_hospitalList"
+      android:showAsAction="never"
+      android:title="Hospitals List"/>
+   
+   <item android:id="@+id/action_insertInfo"
+      android:showAsAction="never"
+      android:title="Insert Hospital Info"/>
+
+
+</menu>
