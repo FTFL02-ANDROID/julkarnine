@@ -91,7 +91,7 @@ public class InsertHostpitalInfoActivity extends Activity {
 	}
 
 	
-	
+	//insert data to database
 	public void insertData(View view) {
 
 		mName = mEtName.getText().toString();
@@ -119,6 +119,8 @@ public class InsertHostpitalInfoActivity extends Activity {
 		}
 	}
 
+	
+	//capture image
 	public void dispatchTakePictureIntent(View v) {
 		Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 		// Ensure that there's a camera activity to handle the intent
