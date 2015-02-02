@@ -100,7 +100,10 @@ public class HospitalListViewActivity extends Activity {
 			}
 		});
 	}
+
 	
+	
+	//For editing the data
 	public void editData(String eId)
 	{
 		Intent mEditIntent = new Intent(getApplicationContext(),
@@ -111,6 +114,7 @@ public class HospitalListViewActivity extends Activity {
 		
 	}
 	
+	//delete a data from database
 	public void deleteData(String eId)
 	{
 		mHospitalDataSource = new HospitalDataSource(this);
@@ -119,6 +123,8 @@ public class HospitalListViewActivity extends Activity {
 		this.recreate();
 	}
 
+	
+	//Display the details view
 	public void detailsView(String eId) {
 		Intent mEditIntent = new Intent(getApplicationContext(),
 				SingleHospitalViewActivity.class);
@@ -127,6 +133,7 @@ public class HospitalListViewActivity extends Activity {
 
 	}
 
+	//Display the google map given longitute and latitude
 	public void showMap(String eId) {
 		Intent mEditIntent = new Intent(getApplicationContext(),
 				GoogleMapActivity.class);
