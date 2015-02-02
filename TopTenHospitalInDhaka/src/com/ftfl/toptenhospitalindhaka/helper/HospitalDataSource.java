@@ -164,11 +164,7 @@ public class HospitalDataSource {
 		return mSingleHospital;
 	}
 
-	/*
-	 * create a Diet chart of ICareProfile. Here the data of the database
-	 * according to the given id is set to the Diet chart and return a Diet
-	 * chart object.
-	 */
+	//update data
 
 	public Hospital updateActivityData(long eActivityId) {
 		this.open();
