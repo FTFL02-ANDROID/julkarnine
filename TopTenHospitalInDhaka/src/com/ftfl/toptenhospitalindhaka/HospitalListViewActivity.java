@@ -142,7 +142,8 @@ public class HospitalListViewActivity extends Activity {
 		startActivity(mEditIntent);
 
 	}
-
+	
+	//Using default google map
 	public void defaultMap() {
 		Intent intent = new Intent(Intent.ACTION_VIEW);
 		intent.setData(Uri.parse("geo:0,0?q="
