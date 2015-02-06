@@ -9,14 +9,14 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 
 	  
 	// Database Name
-	public static final String DATABASE_NAME = "hopitals.db";
+	public static final String DATABASE_NAME = "registerlocations.db";
 	private static final int DATABASE_VERSION = 3;
 
 	// Table HOSPITAL
-	public static final String TABLE_HOSPITAL = "hopital";
-	public static final String COL_HOSPITAL_ID = "hospital_id";
-	public static final String COL_HOSPITAL_NAME = "name";
-	public static final String COL_HOSPITAL_ADDRESS = "address";
+	public static final String TABLE_HOSPITAL = "location";
+	public static final String COL_HOSPITAL_ID = "location_id";
+	public static final String COL_HOSPITAL_NAME = "date";
+	public static final String COL_HOSPITAL_ADDRESS = "time";
 	public static final String COL_HOSPITAL_LATITUDE = "latitude";
 	public static final String COL_HOSPITAL_LONGITUDE = "longitude";
 	public static final String COL_HOSPITAL_DESCRIPTION = "description";
