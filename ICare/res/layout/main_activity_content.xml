@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightSlateGray"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvDietList"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/DarkRed"
+            android:drawableTop="@drawable/diet"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="@string/dietList"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+        
+         <TextView
+             android:id="@+id/tvMadicationList"
+             android:layout_width="match_parent"
+             android:layout_height="110dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="10dp"
+             android:background="@color/DarkRed"
+             android:drawableTop="@drawable/madicine"
+             android:gravity="center"
+             android:paddingTop="10dp"
+             android:text="@string/madicationList"
+             android:textColor="#fff"
+             android:textSize="15sp" />
+        
+        <TextView
+            android:id="@+id/tvVeccinationList"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/DarkRed"
+            android:drawableTop="@drawable/veccination"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="@string/vecinationList"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+        
+        <TextView
+            android:id="@+id/tvImportantDateList"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/DarkRed"
+            android:drawableTop="@drawable/date"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="@string/ImportantNoteList"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical" >
+        
+          <TextView
+              android:id="@+id/tvDoctorList"
+              android:layout_width="match_parent"
+              android:layout_height="110dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:layout_marginTop="10dp"
+              android:background="@color/DarkRed"
+              android:drawableTop="@drawable/doctor"
+              android:gravity="center"
+              android:paddingTop="10dp"
+              android:text="@string/doctorList"
+              android:textColor="#fff"
+              android:textSize="15sp" />
+          
+           <TextView
+               android:id="@+id/tvAppointmentList"
+               android:layout_width="match_parent"
+               android:layout_height="110dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginTop="10dp"
+               android:background="@color/DarkRed"
+               android:drawableTop="@drawable/appointment"
+               android:gravity="center"
+               android:paddingTop="10dp"
+               android:text="@string/appointmentList"
+               android:textColor="#fff"
+               android:textSize="15sp" />
+           
+            <TextView
+                android:id="@+id/tvMadicalHistoryList"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/DarkRed"
+                android:drawableTop="@drawable/madical_history"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="@string/madicalHistory"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+            
+            <TextView
+                android:id="@+id/tvCareCenterList"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/DarkRed"
+                android:drawableTop="@drawable/hospital"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="@string/careCenter"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

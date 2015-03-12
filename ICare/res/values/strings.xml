@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ICare</string>
+    <string name="quit">Quit</string>
+    <string name="really_quit">Do you want to Realy Quit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="image_description">Image Description</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="takePhoto">Take Photo</string>
+    <string name="myImageDescription">myImageDescription</string>
+    <string name="dateOfBirth">Date of Birth</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="gender">Gender</string>
+    <string name="title_daily_diet">Daily Diet Chart</string>
+    <string name="title_weekly_diet">Weekly Diet Chart</string>
+    <string name="bloodGroup">Blood Group</string>
+    <string name="vaccinationName">Vaccination Name</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="description">Description</string>
+    <string name="location">Location</string>
+    <string name="setalarm">Set Alarm</string>
+    <string name="captureImage">Take Photo</string>
+    <string name="DrName">Dr. Name</string>
+    <string name="purpose">Purpose</string>
+    <string name="specialization">Specialization</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="MadicineName">Madicine Name</string>
+    <string name="note">Note</string>
+    <string name="Menu">Menu</string>
+    <string name="feastname">Feast Name</string>
+    <string name="about">Icare is personal health Management android app. ©2015 Fast Track Future Leader. All rights reserved. </string>
+    <string name="growth">Understanding your child\'s changing and emerging growth and development is an important part of parenting. As infants and children progress through a series of growth stages, they may encounter physical and emotional challenges, and some relatively common problems during these years.
+
+Growth and development includes not only the physical changes that will occur from infancy to adolescence, but also some of the changes in emotions, personality, behavior, thinking, and speech that children develop as they begin to understand and interact with the world around them. Listed in the directory below you will find additional information regarding growth at different ages and stages of a child\'s life, for which we have provided a brief overview.</string>
+    <string name="veccination">For a few weeks after birth, babies have some protection from germs that cause diseases. This protection is passed from their mother through the placenta before birth. After a short period, this natural protection goes away.
+
+Vaccines help protect against many diseases that used to be much more common. Examples include tetanus, diphtheria, mumps, measles, pertussis (whooping cough), meningitis, and polio. Many of these infections can cause serious or life-threatening illnesses and may lead to lifelong health problems. Because of vaccines, many of these illnesses are now rare.</string>
+    <string name="diet">Healthy eating is not about strict dietary limitations, staying unrealistically thin, or depriving yourself of the foods you love. Rather, it’s about feeling great, having more energy, and stabilizing your mood. If you feel overwhelmed by all the conflicting nutrition and diet advice out there, you’re not alone. It seems that for every expert who tells you a certain food is good for you, you’ll find another saying exactly the opposite. But by using these simple tips, you can cut through the confusion and learn how to create a tasty, varied, and healthy diet.</string>
+    <string name="dietList">Diet List</string>
+    <string name="doctorList">Doctor List</string>
+    <string name="madicationList">Madication List</string>
+    <string name="appointmentList">Appointment List</string>
+    <string name="vecinationList">Veccination List</string>
+    <string name="madicalHistory">Madical History</string>
+    <string name="importantDate">"Importnat Date "</string>
+    <string name="careCenter">Care Center</string>
+    <string name="title_activity_diet_list">DietListActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_doctor_list">DoctorListActivity</string>
+    <string name="title_activity_madication_list">MadicationListActivity</string>
+    <string name="title_activity_appointment_list">AppointmentListActivity</string>
+    <string name="title_activity_veccination_list">VeccinationListActivity</string>
+    <string name="title_activity_madical_history_list">MadicalHistoryListActivity</string>
+    <string name="title_activity_important_date_list">ImportantDateListActivity</string>
+    <string name="title_activity_care_center_list">CareCenterListActivity</string>
+    
+      <string-array name="genderarray">
+        <item>Male</item>
+        <item>Female</item>
+      </string-array>
+      
+       <string-array name="dietNameSpinner">
+        <item>BreakFast</item>
+        <item>Snack</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+        <string name="Status">Status</string>
+        <string name="title">Title</string>
+        <string name="subject">Subject</string>
+        <string name="ImportantNoteList">Important Note List</string>
+        <string name="Description">Suggestion</string>
+        <string name="alarm">Alarm</string>
+
+</resources>
